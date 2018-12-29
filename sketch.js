@@ -124,7 +124,7 @@ function setup() {
     amplitudeA = new p5.Amplitude()
     amplitudeA.setInput(soundA)
     amplitudeB = new p5.Amplitude()
-    amplitudeB.setInput(soundB)
+    amplitudeB.setInput()
     amplitudeD = new p5.Amplitude()
     amplitudeD.setInput(soundD)
     amplitudeF = new p5.Amplitude()
